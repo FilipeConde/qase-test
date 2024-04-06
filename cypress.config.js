@@ -1,7 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  projectId: 'o1i5zi',
+  // projectId: 'o1i5zi',
   e2e: {
     baseUrl: 'http://webdriveruniversity.com/To-Do-List/',
     watchForFileChanges: false,
@@ -12,7 +12,7 @@ module.exports = defineConfig({
     },
     reporter: 'cypress-qase-reporter',
     reporterOptions: {
-      apiToken: '5578e5c67cba5da3d54e51c2b5194523a2801bf1443b7f79ebdcb03f999fa730',
+      apiToken: 'f478efcd58cb0356ff129a0bc0ab60482a3cfd88f431bf4909e04b3503fa7484',
       projectCode: 'WUS',
       logging: true,
     },
