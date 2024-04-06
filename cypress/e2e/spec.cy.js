@@ -13,7 +13,7 @@ describe('Checklist start', () => {
 
   qase(3,
     it('Has the right items by start', () => {
-      let taskList = [' Go to potion lass', ' Buy new robes', ' Practice magic' ]
+      let taskList = [' Go to potion lass', ' Buy new robes', ' Practice magic']
       taskList.forEach(el => {
         cy.contains(el).should('be.visible')
       })
